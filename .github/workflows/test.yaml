@@ -16,7 +16,7 @@ jobs:
       with:
         NO_PUSH: "true"
         DOCKER_REGISTRY: "quay.io"
-        IMAGE_NAME: jbusecke/leap-edu-image
+        IMAGE_NAME: sed2194/leap_downgrade
         # Special `start` file is required at runtime, so can't put them in /home/jovyan
         # This puts contents of this repo to /srv/repo, so `start` can be present during container runtime
         REPO_DIR: /srv/repo
